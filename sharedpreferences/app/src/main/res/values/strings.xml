@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sharedpreferences</string>
+    <string name="first_access">First access</string>
+    <string name="name_saved">Name saved: %1$s</string>
+</resources>
