@@ -15,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonSave;
     private TextView nameSaved;
 
+    //create var
     public static final String MY_PREFERENCES = "MyPrefs" ;
     public static final String MY_PREFS_NAME = "nameKey";
     public static final String MY_PREFS_FIRST_ACCESS = "firstAccessKey";
 
-    //create var
     private SharedPreferences sharedPreferences;
 
     @Override
@@ -72,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
         editor.apply();
     }
 
+    public void setTextNameSaved() {
+        nameSaved.setText(String.format(getResources().getString(R.string.name_saved), getNameSharedPreferences()));
+    }
+
     public void setListeners() {
         buttonSave.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,9 +84,5 @@ public class MainActivity extends AppCompatActivity {
                 setTextNameSaved();
             }
         });
-    }
-
-    public void setTextNameSaved() {
-        nameSaved.setText(String.format(getResources().getString(R.string.name_saved), getNameSharedPreferences()));
     }
 }
