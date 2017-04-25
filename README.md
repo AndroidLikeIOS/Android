@@ -2,8 +2,8 @@
 
 | Topic | Repositorio |
 | ------ | ------ |
-| SharedPreferences | http://androidlikeios.blogspot.com.br/2017/04/sharedpreferences-for-userdefaults.html|
-| RecyclerView | http://androidlikeios.blogspot.com.br/2017/04/android-recyclerview-like-ios.html|
+| SharedPreferences | https://github.com/AndroidLikeIOS/Android/tree/master/sharedpreferences|
+| Simple RecyclerView | https://github.com/AndroidLikeIOS/Android/tree/master/SimpleRecyclerView|
 
 
 ### Blog 
